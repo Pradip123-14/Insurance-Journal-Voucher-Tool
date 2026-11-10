@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "voucher_type": "Journal",
+  "ledgers": {
+    "expense": "Prepaid Insurance Vehicles",
+    "fallback_gst": "Input GST - CHECK",
+    "rounding": "Rounding OFF"
+  },
+  "state_gst_mappings": {
+    "29": {
+      "cgst": "INPUT CGST -KAR",
+      "sgst": "INPUT SGST-KAR"
+    },
+    "27": {
+      "cgst": "Input CGST_MUM",
+      "sgst": "Input SGST_MUM"
+    },
+    "36": {
+      "cgst": "Input CGST-HYD",
+      "sgst": "Input SGST-HYD"
+    }
+  },
+  "insurer_mappings": {
+    "universal_sompo": {
+      "name_match": "Universal Sompo General Insurance Company Limited",
+      "29": "Universal Sompo General Insurance Company Ltd- BNG",
+      "27": "Universal Sompo General Insurance Company -Mum",
+      "36": "Universal Sompo General Insurance Company Ltd-HYD"
+    },
+    "sbi_general": {
+      "name_match": "SBI General Insurance Company Limited",
+      "default": "SBI General Insurance Company Limited"
+    },
+    "hdfc_ergo": {
+      "name_match": "HDFC ERGO General Insurance Company Limited",
+      "default": "HDFC ERGO GENERAL INSURANCE COMPANY LIMITED"
+    }
+  }
+}

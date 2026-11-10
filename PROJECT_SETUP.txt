@@ -1,0 +1,14 @@
+Insurance Journal Tool - complete source project
+
+This archive contains the complete source code, editable accounting rules,
+Python dependency list, Tesseract system dependency list, README, and tests.
+
+The .venv virtual environment is intentionally not included because it is
+specific to the computer and operating system where it was created. Recreate
+it on this computer by following the README instructions:
+
+  py -3.12 -m venv .venv
+  .\.venv\Scripts\Activate.ps1
+  pip install -r requirements.txt
+
+Do not commit .venv, confidential invoices, or generated company vouchers to GitHub.
